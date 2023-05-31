@@ -18,7 +18,7 @@ baseRouter.post('/add', (req, res) => {
     const first = req.body.first;
     const second = req.body.second;
     const sum = first + second;
-    res.json({"result: ": sum});
+    res.json({"result": sum});
     //res.json({ "": null });
 });
 
@@ -27,7 +27,7 @@ baseRouter.post('/subtract', (req, res) => {
     const first = req.body.first;
     const second = req.body.second;
     const diff = first - second;
-    res.json({"result: ": diff});
+    res.json({"result": diff});
     //res.json({ "": null });
 });
 
